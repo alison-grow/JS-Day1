@@ -10,6 +10,7 @@
 
 
 // DAY 6 TAKE_HOME
+
 // function getRandomCatFact() {
 //     fetch('https://cat-fact.herokuapp.com')
 //         .then(res => {
