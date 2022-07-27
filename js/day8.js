@@ -217,3 +217,35 @@ button.addEventListener('click', speakTrick)
 
 
 // DAY 8 TAKEHOME ASSIGNMENT
+
+
+class Car {
+    constructor(make, model, year, color){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    };
+    createHTML() {
+        const html = `
+        <div style="color: ${this.color};">
+            <h3>${this.model}</h3>
+            <h3>${this.model}</h3>
+            <h3>${this.year}</h3>
+            <h3>${this.color}</h3>
+        </div>
+    };
+    const container = document.createElement("div");
+    container.innerHTML = html;
+    document.body,append(container);
+}
+
+let carOne = new Car('nissan', 'versa', '2015', 'blue');
+let carTwo = new Car('toyota', 'camry', '2018', 'white');
+let carThree = new Car('volkswagen', 'microbus', '2023', 'green');
+let carFour = new Car('ford', 'mustang', '2022', 'black');
+
+console.log(carOne);
+console.log(carTwo);
+console.log(carThree);
+console.log(carFour);
