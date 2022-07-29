@@ -239,7 +239,6 @@ class Car {
     container.innerHTML = html;
     document.body,append(container);
 }
-
 let carOne = new Car('nissan', 'versa', '2015', 'blue');
 let carTwo = new Car('toyota', 'camry', '2018', 'white');
 let carThree = new Car('volkswagen', 'microbus', '2023', 'green');
