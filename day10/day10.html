@@ -3,24 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script defer src="/js/day10.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="./js/day10.js"></script>
 </head>
 <body>
 
-    <!-- <input type="text">
-    <button>test</button> -->
+    <form name="theme" >
+        <label for="bgColor">BG Color</label>
+        <input type="color" name="bgColor">
+        <br>
+        <label for="textColor">Text Color</label>
+        <input type="color" name="textColor">
 
-<form name="theme">
-    <label for="bg-color">bg color</label>
-    <input type="color" name="bgColor">
-</form>
-<br>
-<form name="theme">
-    <label for="text-colorcolor">bg color</label>
-    <input type="color" name="textColor">
-</form>
+    </form>
 
+    <form name="todoForm">
+        <label for="todo">Todo</label>
+        <input type="text" name="todoInput">
+        <button>Submit</button>
+    </form>
+    <style>
+        form {
+            padding: 30px;
+            background-color: #f2f2f2;
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+        ul {
+            background-color: yellow;
+            padding: 10px;
+
+        }
+    </style>
+    <ul>
+        
+    </ul>
 </body>
 </html>
